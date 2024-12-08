@@ -1,0 +1,94 @@
+/* Basic styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the entire app */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar style */
+.navbar {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* Adding margin-top to add some space below the navbar */
+.add-task {
+  margin-top: 40px;  /* This moves the form down to ensure it doesn't touch the navbar */
+  display: flex;
+  justify-content: center; /* Centering the content */
+  align-items: center;
+  flex-direction: column; /* Aligning the inputs vertically */
+}
+
+.add-task form {
+  display: flex;
+  justify-content: center; /* Centering the form elements */
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px; /* Adding space between the inputs and button */
+}
+
+/* Style the input fields and button */
+.add-task input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-task button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task button:hover {
+  background-color: #45a049;
+}
+
+/* Task List Styles */
+.task-list {
+  margin-top: 30px;  /* Adding space between task list and Add Task form */
+}
+
+.task-item {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background-color: #e55347;
+}
+
